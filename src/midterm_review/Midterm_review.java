@@ -30,12 +30,23 @@ public class Midterm_review {
        s3.setName("daanya");
        s3.setGrade(97);
        s3.setAge(10);
+       statusofstudent[] status=new statusofstudent[3];
+       statusofstudent s11=new statusofstudent();
+              statusofstudent s21=new statusofstudent();
+       statusofstudent s31=new statusofstudent();
+
+       s11.setStatus("full time");
+       s21.setStatus("parttime");
+       s31.setStatus("fulltime");
+       status[0]=s11;
+       status[1]=s21;
+       status[2]=s31;
        list[0]=s1;
        list[1]=s2;
        list[2]=s3;
        for(int i=0; i<list.length; i++)
        {
-          System.out.println("name is ="+list[i].getName()+ " ,age is = "+list[i].getAge()+"grade is"+list[i].getGrade());
+          System.out.println("name is ="+list[i].getName()+ " ,age is = "+list[i].getAge()+"grade is"+list[i].getGrade()+" status is"+status[i].getStatus());
        }
         System.out.println("we are learing fetch");
                 System.out.println("we are learing pull");
