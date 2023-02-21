@@ -11,6 +11,7 @@ package midterm_review;
 public class student {
     private int age;
     private String name="";
+    private int grade;
 
     /**
      * @return the age
@@ -38,6 +39,20 @@ public class student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the grade
+     */
+    public int getGrade() {
+        return grade;
+    }
+
+    /**
+     * @param grade the grade to set
+     */
+    public void setGrade(int grade) {
+        this.grade = grade;
     }
     
 }
