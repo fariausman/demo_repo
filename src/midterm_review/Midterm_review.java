@@ -38,6 +38,8 @@ public class Midterm_review {
           System.out.println("name is ="+list[i].getName()+ " ,age is = "+list[i].getAge()+"grade is"+list[i].getGrade());
        }
         System.out.println("we are learing fetch");
+                System.out.println("we are learing pull");
+
         
     }
     
